@@ -1,0 +1,175 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>Hotel Pioneer</title>
+
+<!--Make sure page contains valid doctype at the very top!-->
+
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+
+<script type="text/javascript" src="stepcarousel.js">
+
+/***********************************************
+* Step Carousel Viewer script- (c) Dynamic Drive DHTML code library (www.dynamicdrive.com)
+* Visit http://www.dynamicDrive.com for hundreds of DHTML scripts
+* Please keep this notice intact
+***********************************************/
+
+</script>
+<meta charset="utf-8"/>
+  <link rel="stylesheet" href="style.css" />
+
+<style type="text/css">
+body {
+  background-image: url("background.jpg");
+}
+
+.stepcarousel{
+position: relative; /*leave this value alone*/
+border: 10px solid white;
+overflow: scroll; /*leave this value alone*/
+width: 800px; /*Width of Carousel Viewer itself*/
+height: 533px; /*Height should enough to fit largest content's height*/
+-webkit-box-sizing: border-box; /* set box model so container width and height value includes any padding/border defined */
+-moz-box-sizing: border-box;
+box-sizing: border-box;
+}
+
+.stepcarousel .belt{
+position: absolute; /*leave this value alone*/
+left: 0;
+top: 0;
+}
+
+.stepcarousel .panel{
+float: left; /*leave this value alone*/
+overflow: hidden; /*clip content that go outside dimensions of holding panel DIV*/
+margin: 10px; /*margin around each panel*/
+width: 800px; /*Width of each panel holding each content. If removed, widths should be individually defined on each content DIV then. */
+}
+
+span.paginatecircle{ /* CSS for paginate circle spans. Required */
+background: white;
+border: 2px solid black;
+border-radius: 10px;
+width: 6px;
+height: 6px;
+cursor: pointer;
+display: inline-block;
+margin-right: 4px;
+}
+
+span.paginatecircle:hover{
+background: gray;
+}
+
+span.paginatecircle.selected{
+background: black;
+}
+
+</style>
+
+
+
+<script type="text/javascript">
+
+stepcarousel.setup({
+  galleryid: 'mygallery', //id of carousel DIV
+  beltclass: 'belt', //class of inner "belt" DIV containing all the panel DIVs
+  panelclass: 'panel', //class of panel DIVs each holding content
+  autostep: {enable:true, moveby:1, pause:3000},
+  panelbehavior: {speed:500, wraparound:true, wrapbehavior:'slide', persist:true},
+  defaultbuttons: {enable: true, moveby: 1, leftnav: ['leftarrow.jpg', -36, 260], rightnav: ['rightarrow.jpg', -10, 260]},
+  statusvars: ['statusA', 'statusB', 'statusC'], //register 3 variables that contain current panel (start), current panel (last), and total panels
+  contenttype: ['inline'] //content setting ['inline'] or ['ajax', 'path_to_external_file']
+})
+
+</script>
+
+
+</head>
+<body>
+  <div id="header">
+    <center>
+<font color="FF8000" size="5"><h1>Hotel Pioneer</h1></font>
+</center>
+</div>
+<nav>
+    <center>
+  <a href="index.html"><font color="FF8000" size="5">HOME PAGE</font></a>&nbsp;&nbsp;&nbsp;&nbsp;
+  <a href="room.html"><font color="FF8000" size="5">ROOMS</font></a>&nbsp;&nbsp;&nbsp;&nbsp;
+  <a href="suites.html"><font color="FF8000" size="5">SUITES<font></a>&nbsp;&nbsp;&nbsp;&nbsp;
+  <a href="meatings.html"><font color="FF8000" size="5">MEATINGS</font></a>&nbsp;&nbsp;&nbsp;&nbsp;
+  <a href="events.html"><font color="FF8000" size="5">EVENTS</font></a>&nbsp;&nbsp;&nbsp;&nbsp;
+  <a href="lobby.html"><font color="FF8000" size="5">LOBBIES & SWIMMING POOLS</font></a>&nbsp;&nbsp;&nbsp;&nbsp;
+  <a href="food.html"><font color="FF8000" size="5">FOODS & DRINKS</font></a>
+  <br><br>
+  <font color="red">LOBBIES & SWIMMING POOLS</font>
+</center>
+  </nav>
+  <center>
+  <div id="mygallery" class="stepcarousel">
+<div class="belt">
+
+<div class="panel">
+<img src="51.jpg" />
+</div>
+
+<div class="panel">
+<img src="52.jpg" />
+</div>
+
+<div class="panel">
+<img src="53.jpg" />
+</div>
+
+<div class="panel">
+<img src="54.jpg" />
+</div>
+
+<div class="panel">
+<img src="55.jpg" />
+</div>
+
+<div class="panel">
+<img src="56.jpg" />
+</div>
+
+<div class="panel">
+<img src="57.jpg" />
+</div>
+
+<div class="panel">
+<img src="58.jpg" />
+</div>
+
+<div class="panel">
+<img src="59.jpg" />
+</div>
+
+<div class="panel">
+<img src="60.jpg" />
+</div>
+
+</div>
+</div>
+
+
+
+<p id="mygallery-paginate">
+<span class="paginatecircle" data-moveby="1"></span>
+</p>
+
+</center>
+
+<section>
+    <div><blockquote style="border: 5px solid #666; padding: 1px; background-color: #ccc; width: 25%; float: left"><center><b>ADDRESS :<br> 36, PIONEER ROAD, KAKRAIL, RAMNA <br> DHAKA-1000, BANGLADESH</b></center></blockquote>
+    <blockquote style="border: 5px solid #666; padding: 5px; background-color: #ccc; width: 25%; float: left"><center><b>CONTACT NO. :<br> +880 1715759998 <br> EMAIL :<br> kamrulislam.anik@gmail.com</b></center></blockquote>
+    <blockquote style="border: 5px solid #666; padding: 5px; background-color: #ccc; width: 25%; float: left"><center><b>Social Networks :<br><br>
+        <a href=https://www.facebook.com/kasch69><img src="f.png" alt="Facebook"></a>
+        <a href=https://twitter.com/a_nick69><img src="t.jpg" alt="Twitter"></a>
+        <a href=https://www.linkedin.com/profile/preview?vpa=pub&locale=en_US><img src="l.png" alt="Linkedln"></a>
+        <a href=https://www.instagram.com/a_nick007/><img src="i.jpg" alt="Instagram"></a></b></center></blockquote></div>
+  </section>
+</body>
+</html>

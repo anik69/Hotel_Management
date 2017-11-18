@@ -1,0 +1,199 @@
+  body {
+      margin-right: 15px;
+      margin-left: 15px;
+      margin-top: 15px;
+      background-image: url("background.jpg");
+  }
+
+  li {
+     float: center;
+     width: 105%;
+      position: relative; 
+     top: 40px; 
+    left: 15px; 
+  }
+
+  li a {
+      display: block;
+    
+      
+      padding: 14px 16px;
+      
+  }
+
+  a:hover:not(.active) {
+      background-color: white;
+      width: 230px;
+  }
+
+  .active {
+  background-color: white;
+  }
+
+
+
+  h1 {
+
+  	
+      color:  black;
+     text-align: center;
+      font-size: 30px;
+  font-family: sans-serif;
+     
+  }
+
+
+  p
+  {
+     position: relative; 
+     width: 90%;
+      top: 20px;
+      left: 60px;
+      font-size: 20px;
+     font-family: sans-serif;
+
+      
+  }
+
+  #tag{
+
+    float: left;
+    text-align: right;
+  }
+
+
+
+
+  
+
+  #t{
+
+  position: relative; 
+    margin-left: 58px;
+      margin-top: 18px;
+      font-size: 20px;
+  float: left;
+
+  clear:both; 
+  }
+
+
+  #button1{
+
+  position: relative; 
+     margin-left: 76px;
+       margin-top: 57px;
+      font-size: 20px;
+  float: left;
+
+  }
+
+
+  
+
+
+
+
+ 
+
+
+
+  #form1{
+float: left;
+margin-left: 70px;
+    }
+   
+    #select1{
+float: right;
+margin-right: 350px;
+
+    }
+
+
+    
+
+
+
+    table {
+   
+  border-collapse: collapse;
+ 
+    top: 0px;
+    width: 100%;
+}
+
+
+
+
+
+th {
+    height: 30px;
+   width:60px;
+   font-family: sans-serif;
+}
+
+th, td {
+    padding: 15px;
+   
+   font-family: sans-serif;
+}
+
+table, th, td {
+    border: 1px solid black;
+}
+
+
+
+.form-signin {
+	            max-width: 330px;
+	            padding: 15px;
+	            margin: 0 auto;
+	         }
+	         
+	         .form-signin .form-signin-heading,
+	         .form-signin .checkbox {
+	            margin-bottom: 10px;
+	         }
+	         
+	         .form-signin .checkbox {
+	            font-weight: normal;
+	         }
+	         
+	         .form-signin .form-control {
+	            position: relative;
+	            height: auto;
+	            box-sizing: border-box;
+	            padding: 10px;
+	            font-size: 16px;
+	         }
+	         
+	         .form-signin .form-control:focus {
+	            z-index: 2;
+	         }
+	         
+	         .form-signin input[type="username"] {
+	            margin-bottom: 0px;
+	            border-top-left-radius: 10px;
+	            border-top-right-radius: 10px;
+	            border-color:black;
+	         }
+
+	         .form-signin input[type="submit"] {
+	            margin-bottom: 0px;
+	            border-top-left-radius: 10px;
+	            border-top-right-radius: 10px;
+	            border-color:black;
+	         }
+	         
+	         .form-signin input[type="password"] {
+	            margin-top: 30px;
+	            border-top-left-radius: 10px;
+	            border-top-right-radius: 10px;
+	            border-color:black;
+	         }
+           .form-signin input[type="date"] {
+              margin-top: 30px;
+              border-top-left-radius: 10px;
+              border-top-right-radius: 10px;
+              border-color:black;
+           }
